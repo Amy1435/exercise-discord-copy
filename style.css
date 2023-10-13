@@ -1,21 +1,103 @@
 /* Remember to download Noto Sans and Montserrat fonts from Google Fonts: https://fonts.google.com/ */
 
-:root{
+:root {
     font-family: "Noto Sans", sans-serif;
     font-size: 18px;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.extra-bold{
-    font-family: 'Montserrat', sans-serif;
+.extra-bold {
+    font-family: "Montserrat", sans-serif;
     font-weight: 900;
+}
+
+/*body > * {
+    padding: 0 20%;
+}*/
+
+header {
+    background-color: #404eed;
+    width: 100%;
+    height: 652px;
+}
+
+/*MAIN*/
+
+.text-img-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 110px;
+    gap: 70px;
+}
+
+.text-img-container:nth-child(even) {
+    flex-direction: row;
+    background-color: #f6f6f6;
+}
+
+.text-img-container > .text {
+    max-width: 430px;
+}
+
+.text > h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text p,
+.text-full p {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.text-img-container-full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #f6f6f6;
+}
+
+.full-container {
+    width: 60%;
+}
+.text-full,
+.button-full {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.button-full {
+    position: relative;
+}
+.img-full {
+    margin: 30px;
+}
+
+.button-full > h2 {
+    font-size: 30px;
+}
+
+.button-full img {
+    position: absolute;
+    bottom: 44px;
+    left: 253px;
+}
+.text-full > h1 {
+    font-size: 48px;
+    font-weight: bold;
 }
