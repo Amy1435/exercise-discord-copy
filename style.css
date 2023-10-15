@@ -21,7 +21,7 @@ img {
 }
 
 .big-button {
-    padding: 1em 1.5em;
+    padding: 1em 2em;
     font-size: 18px;
     text-align: center;
     border: none;
@@ -38,21 +38,6 @@ img {
     border-radius: 40px;
     color: black;
     background-color: white;
-}
-
-.small-button-purple {
-    padding: 0.75em 1em;
-    font-size: 14px;
-    text-align: center;
-    border: none;
-    border-radius: 40px;
-    color: black;
-    background-color: #404eed;
-}
-
-.small-button-purple a {
-    color: white;
-    text-decoration: none;
 }
 
 header {
@@ -122,7 +107,7 @@ button.big-button.download > img {
     z-index: 2;
     padding-left: 600px;
     padding-right: 600px;
-    padding-top: 120px;
+    padding-top: 110px;
     text-align: center;
     color: white;
 }
@@ -141,7 +126,7 @@ button.big-button.download > img {
 .button-header {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 61px;
+    padding: 0 28px;
 }
 /*MAIN*/
 
@@ -206,16 +191,25 @@ button.big-button.download > img {
     font-size: 30px;
 }
 
-.button-full img {
-    position: absolute;
-    bottom: 44px;
-    left: 253px;
-}
 .text-full > h1 {
     font-size: 48px;
     font-weight: bold;
 }
 
+.stars {
+    position: absolute;
+    bottom: 125px;
+    left: 218px;
+}
+
+button.big-button.download.purple {
+    background-color: #404eed;
+    color: white;
+}
+
+button.big-button.download.purple img {
+    filter: invert(100%);
+}
 /*Footer*/
 
 footer {
@@ -281,4 +275,13 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+}
+
+.small-button.purple {
+    background-color: #404eed;
+}
+
+.small-button.purple a {
+    color: white;
+    text-decoration: none;
 }
