@@ -114,13 +114,13 @@ button.big-button.download > img {
 
 .jumbotron h1 {
     font-size: 60px;
-    font-weight: bolder;
+    font-weight: 900;
     margin-bottom: 30px;
 }
 
 .jumbotron h3 {
-    font-size: 17px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 25px;
 }
 .button-header {
@@ -156,7 +156,7 @@ button.big-button.download > img {
 .text p,
 .text-full p {
     font-size: 19px;
-    font-weight: 100;
+    font-weight: 300;
     margin-top: 20px;
 }
 
@@ -177,7 +177,6 @@ button.big-button.download > img {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 30px;
 }
 
 .button-full {
@@ -189,11 +188,12 @@ button.big-button.download > img {
 
 .button-full > h2 {
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .text-full > h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .stars {
