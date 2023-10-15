@@ -248,6 +248,14 @@ footer {
     cursor: pointer;
 }
 
+.language {
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+}
+
 /*Footer right*/
 
 .footer-right {
