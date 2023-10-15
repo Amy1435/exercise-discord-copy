@@ -20,28 +20,14 @@ img {
     font-weight: 900;
 }
 
-.download-button {
+.big-button {
     padding: 1em 1.5em;
     font-size: 18px;
     text-align: center;
     border: none;
     border-radius: 40px;
+    background-color: white;
     color: black;
-}
-
-.download-button > img {
-    vertical-align: text-bottom;
-    max-width: 90%;
-}
-
-.big-button {
-    padding: 1.1em 1.5em;
-    font-size: 18px;
-    text-align: center;
-    border: none;
-    border-radius: 40px;
-    color: white;
-    background-color: black;
 }
 
 .small-button {
@@ -68,9 +54,6 @@ img {
     color: white;
     text-decoration: none;
 }
-/*body > * {
-    padding: 0 20%;
-}*/
 
 header {
     background-color: #404eed;
@@ -94,6 +77,14 @@ header > img:nth-child(1) {
     width: 100%;
     bottom: 0;
     z-index: 1;
+}
+
+button.big-button.black {
+    background-color: black;
+    color: white;
+}
+button.big-button.download > img {
+    vertical-align: bottom;
 }
 
 /*navbar*/
@@ -188,12 +179,12 @@ header > img:nth-child(1) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 80px 363px;
     background-color: #f6f6f6;
 }
 
 .full-container {
-    width: 60%;
+    width: 83%;
 }
 .text-full,
 .button-full {
@@ -201,6 +192,7 @@ header > img:nth-child(1) {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    gap: 30px;
 }
 
 .button-full {
